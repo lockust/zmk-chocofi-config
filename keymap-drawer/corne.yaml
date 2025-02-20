@@ -170,9 +170,9 @@ layers:
   - $$mdi:arrow-right$$
   - ''
   - ''
-  - CUT
-  - COPY
-  - PASTE
+  - Gui+X
+  - Gui+C
+  - Gui+P
   - ''
   - ''
   - ''
