@@ -27,7 +27,7 @@
 #define _RET_     &kp RETURN 
 #define _CUT_     &kp LG(X)
 #define _COPY_    &kp LG(C)
-#define _PASTE_   &kp LG(P)
+#define _PASTE_   &kp LG(V)
 
 #define _MO_NUM_ &mo NUMBER
 
