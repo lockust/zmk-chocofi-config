@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+layout: {zmk_keyboard: corne, layout_name: five_column_transform}
 layers:
   base:
   - {t: Q, h: fn}
@@ -121,7 +121,7 @@ layers:
   - F7
   - F8
   - F9
-  - ''
+  - AL LOCK
   - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
   - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
   - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
