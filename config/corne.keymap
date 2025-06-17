@@ -35,6 +35,8 @@
 #define ___      &trans      //  transparent
 #define _x_      &none
 
+#define MEH LC(LS(LALT))
+
 // tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
 ZMK_MOD_MORPH(smart_shift,
     bindings = <&sk LSHFT>, <&caps_word>;
@@ -152,7 +154,7 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
         // │     Z     │     X     │     C     │     V     │     B     │   │     N     │     M     │    ,/;    │    ./:    │     /     │
                &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M     &kp COMMA     &kp DOT      &kp FSLH
         // ╰───────────┼───────────┼───────────┼───────────┼───────────╯   ╰───────────┼───────────┼───────────┼───────────┼───────────╯
-                                     &kp LSHIFT  &lt NAV TAB  &kp SPACE         _RET_    &lt SYM ESC    &SBD 
+                                     &kp LSHIFT  &lt NAV TAB  &hml MEH SPACE         _RET_    &lt SYM ESC    &SBD 
         //                         │                                   │   │                                   │
         //                         ╰───────────────────────────────────╯   ╰───────────────────────────────────╯
       >;
