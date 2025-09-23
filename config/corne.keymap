@@ -37,7 +37,7 @@
 
 #define MEH LC(LS(LALT))
 
-// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
+// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shifts
 ZMK_MOD_MORPH(smart_shift,
     bindings = <&sk LSHFT>, <&caps_word>;
     mods = <(MOD_LSFT)>;
