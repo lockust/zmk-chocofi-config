@@ -99,19 +99,19 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
       as_tab_combo {
         timeout-ms = <50>; // Adjust as needed
         bindings = <&kp TAB>; // Action: Backspace
-        key-positions = <14 15>;
+        key-positions = <10 12>;
         layers = < BASE >;
     };
-      iu_backspace_combo {
+      jk_tilda_combo {
         timeout-ms = <50>; // Adjust as needed
-        bindings = <&kp COLON>; // Action: Backspace
+        bindings = <&kp LS(GRAVE)>; // Action: Backspace
         key-positions = <16 17>;
         layers = < BASE >;
       };
-      jk_colon_combo {
+      lcolon_pipe_combo {
         timeout-ms = <50>; // Adjust as needed
         bindings = <&kp LS(BSLH)>; // Action: Backspace
-        key-positions = <12 13>;
+        key-positions = <18 19>;
         layers = < BASE >;
       };
 
