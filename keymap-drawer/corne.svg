@@ -425,18 +425,18 @@ rect.held, rect.combo.held {
 <text x="0" y="-24" class="key shifted">DEL</text>
 </g>
 <g class="combo combopos-0">
-<path d="M364,98 l-93,0" class="combo"/>
-<path d="M364,98 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="350" y="85" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="355" y="89" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<path d="M84,94 l-38,7" class="combo"/>
+<path d="M84,94 l38,-7" class="combo"/>
+<rect rx="6" ry="6" x="70" y="82" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="75" y="86" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="546" y="74" width="28" height="26" class="combo"/>
-<text x="560" y="88" class="combo tap">:</text>
+<text x="560" y="88" class="combo tap">Sft+`</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Sft+\</text>
+<rect rx="6" ry="6" x="658" y="85" width="28" height="26" class="combo"/>
+<text x="672" y="98" class="combo tap">Sft+\</text>
 </g>
 </g>
 </g>

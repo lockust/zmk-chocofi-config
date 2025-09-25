@@ -186,12 +186,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [14, 15]
+- p: [10, 12]
   k: $$mdi:keyboard-tab$$
   l: [base]
 - p: [16, 17]
-  k: ':'
+  k: Sft+`
   l: [base]
-- p: [12, 13]
+- p: [18, 19]
   k: Sft+\
   l: [base]
