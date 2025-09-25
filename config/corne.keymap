@@ -96,6 +96,12 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
 / {
   combos {
       compatible = "zmk,combos";
+      as_tab_combo {
+        timeout-ms = <50>; // Adjust as needed
+        bindings = <&kp TAB>; // Action: Backspace
+        key-positions = <14 15>;
+        layers = < BASE >;
+    };
       iu_backspace_combo {
         timeout-ms = <50>; // Adjust as needed
         bindings = <&kp COLON>; // Action: Backspace
@@ -104,7 +110,7 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
       };
       jk_colon_combo {
         timeout-ms = <50>; // Adjust as needed
-        bindings = <&smart_shift>; // Action: Backspace
+        bindings = <&kp LS(BSLH)>; // Action: Backspace
         key-positions = <12 13>;
         layers = < BASE >;
       };
@@ -114,7 +120,7 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap";
       flavor = "balanced";
-      tapping-term-ms = <280>;
+      tapping-term-ms = <200>;
       quick-tap-ms = <QUICK_TAP_MS>; 
       bindings = <&kp>, <&kp>;
       // label = "HOMEROW_MODS";
