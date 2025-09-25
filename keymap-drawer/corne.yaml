@@ -186,9 +186,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [14, 15]
+  k: $$mdi:keyboard-tab$$
+  l: [base]
 - p: [16, 17]
   k: ':'
   l: [base]
 - p: [12, 13]
-  k: '&smart_shift'
+  k: Sft+\
   l: [base]
