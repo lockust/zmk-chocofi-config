@@ -99,7 +99,7 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
       as_tab_combo {
         timeout-ms = <50>; // Adjust as needed
         bindings = <&kp TAB>; // Action: Backspace
-        key-positions = <10 12>;
+        key-positions = <10 11>;
         layers = < BASE >;
     };
       jk_tilda_combo {
