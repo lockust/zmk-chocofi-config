@@ -186,7 +186,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [10, 12]
+- p: [10, 11]
   k: $$mdi:keyboard-tab$$
   l: [base]
 - p: [16, 17]
